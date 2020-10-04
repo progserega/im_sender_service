@@ -1,0 +1,7 @@
+Options FollowSymLinks ExecCGI
+DirectoryIndex api_add_message.cgi
+
+<Files "config.py">
+Order Deny,Allow
+Deny from all
+</Files>
